@@ -1,6 +1,16 @@
-# Ignore build outputs from performing a nix-build or `nix build` command
-result
-result-*
+/target/
+/build/
+/_build/
+/builddir/
+/build-aux/app
+/build-aux/.flatpak-builder/
+/src/config.rs
+*.ui.in~
+*.ui~
+/.flatpak/
+/vendor
+/.vscode
+.flatpak-builder/
 
-# Ignore automatically generated direnv output
-.direnv
+.direnv 
+result
